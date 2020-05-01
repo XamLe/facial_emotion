@@ -1,0 +1,40 @@
+What are the goals of the project? 
+
+recognise facial emotion in:
+	
+	static image
+		face centered
+		face anywhere
+		multiple faces
+	
+	video feed
+		
+to be recognised facial emotions:
+  
+  happy
+  calm
+  sad
+  
+  angry
+  surprised
+  confused
+  ...
+
+What are possible steps to achieve these goals? 
+
+-preprocessing e.g. noise reduction, histogram equalization, conversion to grayscale, edge detection
+-recognise faces and isolate them
+-extract feature points in each face
+-classify feature points to detect emotion
+
+
+What are the risks and assumptions? 
+
+
+Write down open questions!
+
+What programming language?
+  matlab, phython?
+  
+  
+
