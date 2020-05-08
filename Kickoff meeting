@@ -1,0 +1,36 @@
+Goals:
+1. centered face / clear background
+2. face localization
+3. angles ??
+4. multiple faces
+5. live video / webcam recognition
+
+Problems / Risks:
+- little experience
+- problems with datasets
+- topic rather late in the lecture
+
+
+
+Notes from Kickoff Meeting:
+- use BigBlueButtonRoom for communication
+- Topic: facial emotion recognition
+- Process images and classify emotion
+- find data on our own
+- end product not as important as the process
+- choose project manager: _________
+- PDF-file: project instructions
+- Finish Project by the end of the lecture time (last week starts 7/13/20)
+- 5 Project meetings starting next week
+- Recomendation: Python as Programming language
+- Keyword: convolutional neural network
+- Article: Deep Learning - Y. LeCun, Y. Bengio, G. Hinton
+- Book: I. Goodfellow, Y. Bengio, A. Courville: Deep Learning. MIT Press, 2016
+
+ToDo:
+- Questions for next Meeting
+- choose Project-manager
+- research on neural network theory
+- Finish the initiation phase (goals, steps, questions)
+- assign responsibilitys
+- documentation!
