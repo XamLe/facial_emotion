@@ -1,8 +1,8 @@
-\documentclass[]{article}
 
 \usepackage{amsmath}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{multicol}
 
 \begin{document}
 \author{hej}
@@ -11,6 +11,7 @@
 
 \section{Initiation Phase}
 \subsection{Main goal}
+\begin{multicols}{2}
 \begin{itemize}
 \item Develop a ``program'' for facial emotion recognition from pictures.
     \begin{itemize}
@@ -21,10 +22,13 @@
 \item Achieve at least $65$\% accuracy.
 \end{itemize}
 
-\begin{figure}
-    \includegraphics[width=0.7\linewidth]{flowchart.pdf}
-    \caption{Project flow chart.}
-\end{figure}
+\columnbreak
+
+%\begin{minipage}[h]{0.45\textwidth}
+    \centering
+    \includegraphics[width=0.5\textwidth]{flowchart.pdf}
+%\end{minipage}
+\end{multicols}
 
 \subsection{How to achieve the goal}
 \begin{itemize}
