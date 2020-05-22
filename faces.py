@@ -4,6 +4,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 from PIL import Image  
 
+# Comment for testing purpose
+
 img = cv2.imread('faces.jpg')
 
 face_locations = face_recognition.face_locations(img)
