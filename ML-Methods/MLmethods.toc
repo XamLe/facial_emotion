@@ -1,7 +1,7 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{Abbildungsverzeichnis}{III}
-\contentsline {section}{\numberline {1}Einleitung}{1}
-\contentsline {section}{\numberline {2}Was ist ML?}{2}
+\contentsline {section}{List of figures}{III}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}What is ML?}{2}
 \contentsline {subsection}{\numberline {2.1}Basis ML 1(maybe Data)}{2}
 \contentsline {subsection}{\numberline {2.2}Basis ML 2}{3}
 \contentsline {section}{\numberline {3}Classical learning}{4}
@@ -23,4 +23,4 @@
 \contentsline {subsection}{\numberline {5.2}Boosting}{6}
 \contentsline {subsection}{\numberline {5.3}Stacking}{6}
 \contentsline {section}{\numberline {6}Reinforcement learning}{7}
-\contentsline {section}{Literaturverzeichnis}{8}
+\contentsline {section}{Bibliography}{8}
