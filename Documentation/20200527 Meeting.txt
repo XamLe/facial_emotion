@@ -1,0 +1,24 @@
+Meeting 27.05.2020 at 16:00. Doku: Timo
+
+We agreed that we should document the meetings like Jonas did last time.
+
+Giulia mentioned that we could try a app which structures projects. She will send some infos to the Whatsappgroup.
+
+Timo presented the pdf "ML-Methods". We discussed about the structur. We will focus on topics which can help us solving our problem(image classification) first.
+Later we will concentrate on the other topics. We are going to dokument the algorithms loose. We try to find at least 1-2 links to further material for the algorithms. 
+We also agreed that we dont want to focus on all algorithms mentioned at grapic Ch. 2. The grapic is to be seen like an overview about the topic.
+
+Later we discussed about the possible alogrithms. Beside deep learning, knn could be used for image classification. One problem is that we dont know yet how to measure the distance between the pictures.
+Another problem could be that the size of our dataset could take a lot of time to be processed. 
+Furthermore we talked about SVM(support vector machines). Currently we dont have the knowledge how it works specifically.  We did not found a lot of online sources in the past week. We try to figure out how this algorithm works.
+
+Then we discussed about our upcoming meeting with Dr. Beckmann. 
+We are going to present the PDF Max wrote about our goals. Then we want to show "ML-Methods" as a first approach. Later we want to 
+
+Dr. Beckmann mentioned that we should establish a feedbacksystem. We will think about that and how to establish said.
+
+Like last week we wanted to mention what everybody is focusing on at the upcoming week. 
+John	is going to figure out more about KNN for images
+Jonas	is going to concentrate on Ch. 4 (neural nets) + split the "ML-Methods" in chapters so that we can work individually at our topics.
+Giulia	is going to concentrate on Ch. 2 (what is ML)
+Timo	is going to concentrate on Ch. 3 (Classic ML, supervised learning)
