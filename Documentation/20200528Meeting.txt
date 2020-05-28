@@ -1,0 +1,21 @@
+Meeting 28.05.2020 at 14:30. Doku: Giulia
+
+Timo presented the document (ML_Project) that Max prepared on our redefined goals.
+Dr.Beckmann asked which algorithms we were willing to cover as our "research goal". 
+Timo moved to "ML-Methods" and over the diagram in chapter2. 
+He pointed that our focus is on Supervised classical learning and Neural Nets/Deep Learning, which are the methods useful for our "implementing goal" of building a classifier for facial emotions.  
+
+Following, we discussed on planning. 
+Timo mentioned our available time: each week 8h/person of which 1h/meeting and 30min/client.
+Giulia mentioned organizing a table in which after each group meeting we make notes on our progress. 
+Plus another table in which each group member is associated to his tasks and due date. 
+Still not having it prepared, we mentioned our current "fast" approach on having a task for this week. 
+Dr.Beckmann asked for a complete planning for the whole project with defined tasks, milestones, dependencies, time requirement and assignment and suggested using a Gantt chart.  
+He asked we have it done next week, we settled Mo.01 for preparing and discussing on Mo.02.
+
+About final presentation - July 15t hand out. July 20th Presentaion. Slides in pdf format.
+About feedback - in every meeting ask what worked well and what can be improved. Good relation between members included.
+
+ 
+ 
+
