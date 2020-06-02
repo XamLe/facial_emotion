@@ -1,0 +1,19 @@
+Meeting 02.06.2020 at 14:00. Doku: Giulia
+
+Max and Timo started presenting the Gantt Chart for our project planning.
+Giulia was worried about having tasks for everyone and about possible trashing/overwriting work.
+John was satisfied.
+Jonas thought too much time was devoted for documenting research instead of programming.
+He already had added notes in "Chap.4 Neural Networks and Deep Learning", which he told us to take a look.
+
+It wasn't clear how to involve everyone in programming. 
+It still ins't clear what should be learned in a ML-course, more specifically in our practical project. 
+We will send the planning to Dr.Beckmann and ask for a short appointment this week.
+
+Regarding Jonas request, we thought about giving more time for preparing the presentation, since we believe that is when we focus more especifically in the programm and the algorithm for facial emortion recognition.
+
+For this week:
+John will look for alternatives to CNN.
+Giulia and Timo will write an overall view of ML. (Chap2)
+Max 
+Jonas continue on chap.4 and write how we can use each different type of NN for our facial expression problem.
