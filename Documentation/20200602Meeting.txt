@@ -15,5 +15,5 @@ Regarding Jonas request, we thought about giving more time for preparing the pre
 For this week:
 John will look for alternatives to CNN.
 Giulia and Timo will write an overall view of ML. (Chap2)
-Max 
-Jonas continue on chap.4 and write how we can use each different type of NN for our facial expression problem.
+Max will learn about Support Vector Machines
+Jonas continues on chap.4 and writes how we can use each different type of NN for our facial expression problem.
