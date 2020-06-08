@@ -14,12 +14,12 @@
 \contentsline {section}{\numberline {4}Neural Networks and Deep Learning}{5}{section.4}
 \contentsline {subsection}{\numberline {4.1}Convolutional Neural Networks CNN}{5}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Recurrent Neural Networks RNN}{5}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Generative adversarial networks GAN}{5}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Generative adversarial networks GAN}{6}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Autoencoders}{6}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Perceptrons MLP}{6}{subsection.4.5}
-\contentsline {section}{\numberline {5}Ensemble Methods}{7}{section.5}
-\contentsline {subsection}{\numberline {5.1}Bagging}{7}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Boosting}{7}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Stacking}{7}{subsection.5.3}
-\contentsline {section}{\numberline {6}Reinforcement learning}{8}{section.6}
-\contentsline {section}{Bibliography}{9}{section.6}
+\contentsline {subsection}{\numberline {4.5}Perceptrons MLP}{7}{subsection.4.5}
+\contentsline {section}{\numberline {5}Ensemble Methods}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Bagging}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Boosting}{8}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Stacking}{8}{subsection.5.3}
+\contentsline {section}{\numberline {6}Reinforcement learning}{9}{section.6}
+\contentsline {section}{Bibliography}{10}{section.6}

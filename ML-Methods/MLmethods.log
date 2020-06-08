@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.24)  30 MAY 2020 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.4.24)  8 JUN 2020 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -759,27 +759,51 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 18.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (244.20865pt too wide) in paragraph at lines 15--19
+Overfull \hbox (244.20865pt too wide) in paragraph at lines 15--20
 []$\T1/pcr/m/n/10 https : / / towardsdatascience . com / a-[]comprehensive-[]gu
 ide-[]to-[]convolutional-[]neural-[]networks-[]the-[]eli5-[]way-[]3bd2b1164a53$
 [] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
 [5 <./Images/CNN.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
 <Images/Autoencoder.png, id=178, 1405.25pt x 798.985pt>
 File: Images/Autoencoder.png Graphic file (type png)
 
 <use Images/Autoencoder.png>
-Package pdftex.def Info: Images/Autoencoder.png used on input line 41.
+Package pdftex.def Info: Images/Autoencoder.png used on input line 53.
 (pdftex.def)             Requested size: 426.79135pt x 242.65988pt.
 
-Overfull \hbox (86.20865pt too wide) in paragraph at lines 45--49
+Overfull \hbox (86.20865pt too wide) in paragraph at lines 57--61
 []$\T1/pcr/m/n/10 https : / / towardsdatascience . com / applied-[]deep-[]learn
 ing-[]part-[]3-[]autoencoders-[]1c083af4d798$[] 
  []
 
-[6 <./Images/Autoencoder.png (PNG copy)>]) (./Chapters/Ensemble_methods.tex
-[7]) (./Chapters/Reinforcement_learning.tex [8]) (./Chapters/Bibliography.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+[6] [7 <./Images/Autoencoder.png (PNG copy)>]) (./Chapters/Ensemble_methods.tex
+[8]) (./Chapters/Reinforcement_learning.tex [9]) (./Chapters/Bibliography.tex
 Underfull \hbox (badness 7273) in paragraph at lines 9--10
 []\T1/ptm/m/sc/10 Deutsche Ak-tu-arvere-ini-gung e.V.\T1/ptm/m/n/10 , 2012: Uni
 sex-Tarifierung, abgerufen am 10.
@@ -791,7 +815,7 @@ Underfull \hbox (badness 5924) in paragraph at lines 9--10
 sversicherung_Unisex_Aktuar-
  []
 
-[9])
+[10])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
  (./MLmethods.aux)
@@ -802,23 +826,23 @@ Package rerunfilecheck Info: File `MLmethods.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
  ) 
 Here is how much of TeX's memory you used:
- 7159 strings out of 492995
- 100901 string characters out of 6132704
+ 7160 strings out of 492995
+ 100908 string characters out of 6132704
  191937 words of memory out of 5000000
  10526 multiletter control sequences out of 15000+600000
  45361 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,6n,28p,646b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,6n,28p,697b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/201
 7/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on MLmethods.pdf (12 pages, 759059 bytes).
+Output written on MLmethods.pdf (13 pages, 760705 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 207 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 211 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
