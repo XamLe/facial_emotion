@@ -16,14 +16,14 @@ class Algorithm:
 	        self.faces=faces
 
 	def show(self):
-		self.frame=tk.Frame(self.root,bg='#ffc180',bd=5)
+		self.frame=tk.Frame(self.root,bg='#80e0a1',bd=5)
 		self.frame.place(relx=self._relx,relwidth=self._relwidth,rely=self._rely,relheight=self._relheight,anchor=self._anchor)
 
 		label=tk.Label(self.frame,text = 'Algorithm')
 		label.pack()
 
 		button=tk.Button(self.frame,text="Run Model",command=self.Run_model)
-		button.place(relx=1,rely=1,width=100,height=60,anchor='se')
+		button.place(relx=1,rely=1,width=90,height=35,anchor='se')
 
 
 

@@ -23,14 +23,14 @@ class Screengrab:
 
 	    framecap=self.sct.grab({'top': int(self.top_s.get()), 'left': int(self.left_s.get()), 'width': int(self.width_s.get()), 'height': int(self.height_s.get())})
 	    img = Image.frombytes("RGB", framecap.size, framecap.bgra, "raw", "BGRX")
-	    framecap=cv2.resize(np.uint8(img),(0,0),fx=1,fy=1,interpolation = cv2.INTER_AREA)
+	    framecap=cv2.resize(np.uint8(img),(0,0),fx=1.5,fy=1.5,interpolation = cv2.INTER_AREA)
 	    self.input.set_input(framecap)
 
 
 	def start_capture(self):
 		
 		self.screen_capture = tk.Label(self.screen_grab_frame,bg='#80c1ff')
-		self.screen_capture.place(relx=0.55,rely=0.1,relwidth=0.8,relheight=0.32,anchor='n')
+		self.screen_capture.place(x=68,y=37,relwidth=0.75,relheight=0.32,anchor='nw')
 		self.Screen_Capture=True
 
 		def show_frame():
@@ -66,31 +66,31 @@ class Screengrab:
 	    input_screen_capture_label.pack()
 	    
 	    button=tk.Button(self.screen_grab_frame,text="Capture",command=self.take_screenshot)
-	    button.place(relx=0.5,rely=1,width=100,height=60,anchor='s')
+	    button.place(relx=0.5,rely=1,width=90,height=35,anchor='s')
 
 	    button=tk.Button(self.screen_grab_frame,text="Start",bg='green',command=self.start_capture)
-	    button.place(relx=0,rely=1,width=100,height=60,anchor='sw')	    
+	    button.place(relx=0,rely=1,width=90,height=35,anchor='sw')	    
 
 	    button=tk.Button(self.screen_grab_frame,text="Stop",bg='green',command=self.stop_capture)
-	    button.place(relx=1,rely=1,width=100,height=60,anchor='se')
+	    button.place(relx=1,rely=1,width=90,height=35,anchor='se')
 
 	    self.top_s=tk.Entry(self.screen_grab_frame)
-	    self.top_s.place(relwidth=0.4,relx=0.05,rely=0.75,anchor='w')
+	    self.top_s.place(relwidth=0.2,relx=0.05,rely=0.75,anchor='w')
 	    self.left_s=tk.Entry(self.screen_grab_frame)
-	    self.left_s.place(relwidth=0.4,relx=0.05,rely=0.65,anchor='w')
+	    self.left_s.place(relwidth=0.2,relx=0.05,rely=0.6,anchor='w')
 	    self.width_s=tk.Entry(self.screen_grab_frame)
-	    self.width_s.place(relwidth=0.4,relx=0.95,rely=0.65,anchor='e')
+	    self.width_s.place(relwidth=0.2,relx=0.95,rely=0.6,anchor='e')
 	    self.height_s=tk.Entry(self.screen_grab_frame)
-	    self.height_s.place(relwidth=0.4,relx=0.95,rely=0.75,anchor='e')
+	    self.height_s.place(relwidth=0.2,relx=0.95,rely=0.75,anchor='e')
 
-	    self.slider_x=tk.Scale(self.screen_grab_frame,from_=10,to=1000,bg='#80c1ff',command=self.y_set)
+	    self.slider_x=tk.Scale(self.screen_grab_frame,from_=10,to=1000,bg='#80c1ff',command=self.y_set,length=70)
 	    self.slider_x.set(300)
 
 	    self.slider_x.place(anchor='ne',y=30,x=50)
 
 	    self.slider_y=tk.Scale(self.screen_grab_frame,from_=10,to=1000,bg='#80c1ff',command=self.x_set,orient=tk.HORIZONTAL)
 	    self.slider_y.set(170)
-	    self.slider_y.place(anchor='s',rely=0.55,relx=0.5)
+	    self.slider_y.place(anchor='s',rely=0.66,relx=0.5)
 
 
 	    

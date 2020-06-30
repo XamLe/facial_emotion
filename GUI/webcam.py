@@ -26,14 +26,14 @@ class Webcam:
 			self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 540)
 
 			self.camera = tk.Label(self.webcam_frame,bg='#80c1ff')
-			self.camera.place(relx=0.5,rely=0.1,relwidth=0.8,relheight=0.6,anchor='n')
+			self.camera.place(relx=0.5,rely=0.15,relwidth=0.8,relheight=0.6,anchor='n')
 
 			def show_frame():
 				if self.video_capture==True:
 				    _, webcam_image = self.cap.read()
 				    webcam_image = cv2.flip(webcam_image, 1)
 				    cv2image = cv2.cvtColor(webcam_image, cv2.COLOR_BGR2RGBA)
-				    cv2image=cv2.resize(cv2image,(0,0),fx=0.3,fy=0.3,interpolation = cv2.INTER_AREA)
+				    cv2image=cv2.resize(cv2image,(0,0),fx=0.2,fy=0.2,interpolation = cv2.INTER_AREA)
 				    img = Image.fromarray(cv2image)
 				    imgtk = ImageTk.PhotoImage(image=img)
 				    self.camera.imgtk = imgtk
@@ -59,18 +59,18 @@ class Webcam:
 
 	def show(self):
 
-		self.webcam_frame=tk.Frame(self.root,bg='#ffc180',bd=5)
+		self.webcam_frame=tk.Frame(self.root,bg='#80c1ff',bd=5)
 		self.webcam_frame.place(relx=self._relx,relwidth=self._relwidth,rely=self._rely,relheight=self._relheight,anchor=self._anchor)
 
 		input_method_label=tk.Label(self.webcam_frame,text = 'Webcam Input')
 		input_method_label.pack()
 
 		button=tk.Button(self.webcam_frame,text="Start",bg='green',command=self.start_video_capture)
-		button.place(relx=0,rely=1,width=100,height=60,anchor='sw')
+		button.place(relx=0,rely=1,width=90,height=35,anchor='sw')
 
 		button=tk.Button(self.webcam_frame,text="Stop",bg='green',command=self.stop_video_capture)
-		button.place(relx=1,rely=1,width=100,height=60,anchor='se')
+		button.place(relx=1,rely=1,width=90,height=35,anchor='se')
 
 		button=tk.Button(self.webcam_frame,text="Capture",bg='green',command=self.take_photo)
-		button.place(relx=0.5,rely=1,width=100,height=60,anchor='s')
+		button.place(relx=0.5,rely=1,width=90,height=35,anchor='s')
 

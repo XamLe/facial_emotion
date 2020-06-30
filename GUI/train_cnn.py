@@ -26,70 +26,82 @@ class Train_CNN:
 		label.pack()
 
 		load_button=tk.Button(self.frame,text="Train CNN",command=self.train)
-		load_button.place(relx=1,rely=1,width=150,height=60,anchor='se')
+		load_button.place(relx=1,rely=1,width=90,height=35,anchor='se')
 
 		self.model_name_entry=tk.Entry(self.frame)
-		self.model_name_entry.pack()
-		self.model_name_entry.insert(tk.END,'test')
+		self.model_name_entry.place(anchor='nw',x=55,y=30,width=130)
+		self.model_name_entry.insert(tk.END,'new Model name')
+
+		label=tk.Label(self.frame,text='Name:',bg=self.frame["background"])
+		label.place(anchor='nw',x=0,y=34)
+
+		label=tk.Label(self.frame,text='Epochs:',bg=self.frame["background"])
+		label.place(anchor='nw',x=0,y=69)
 
 		self.epochs_entry=tk.Entry(self.frame)
-		self.epochs_entry.pack()
+		self.epochs_entry.place(anchor='nw',x=55,y=65,width=130)
 		self.epochs_entry.insert(tk.END,'1')
 
 
 
-		self.progressbar=Progressbar(self.frame,maximum = 100)
-		self.progressbar.pack()
+		self.progressbar=Progressbar(self.frame,maximum = 100,mode='indeterminate')
+		self.progressbar.place(anchor='sw',x=0,rely=1)
 
 		emotions=["Angry","Disgust","Fear","Happy","Sad","Surprise","Neutral"]
 		self.checklist = ChecklistBox(self.frame, emotions, bd=1, relief="sunken", background="white")
-		self.checklist.pack()
+		self.checklist.place(anchor='ne',relx=1,y=0.38)
 
-		print(self.checklist.get_deactivated_expressions())
 
 	def train(self):
 		_thread.start_new_thread(self.train_network,())
 
 
 	def train_network(self):
-		# self.progressbar.start()
-		trainingdata = open("/Users/jonaseckhoff/facial_emotion_local/28709train.txt","r")
 		name=self.model_name_entry.get()
 		epochs=int(self.epochs_entry.get())
 
-		x_train_filtered=[]
-		y_train_filtered=[]
+		if not (self.checklist.get_deactivated_expressions() == []):
+			trainingdata = open("/Users/jonaseckhoff/facial_emotion_local/28709train.txt","r")
+
+			x_train_filtered=[]
+			y_train_filtered=[]
 
 
-		deactivated_expressions=self.checklist.get_deactivated_expressions()
-		for i in range(28709):
-		    data=trainingdata.readline() #read one image
-		    if i%500==0:
-		        self.progressbar['value']=int(i*100/28709)
-		    if int(data[0]) in deactivated_expressions:
-		        continue
-		    image_string=data[3:-2] #cut off irrelevant part of the string
-		    image=np.array([int(k) for k in image_string.split(' ')])
-		    image=image.reshape(48,48)
-		    image=np.uint8(image)
-		    face_locations=face_recognition.face_locations(image)
-		    if np.shape(face_locations)[0]==1:
-		        face_coords=face_locations[0]
-		        face=image[face_coords[0]:face_coords[2],face_coords[3]:face_coords[1]]
-		        #square crop still missing, there might be some stretching right now
-		        face_48=cv2.resize(face,(48,48),interpolation = cv2.INTER_AREA)
-		        x_train_filtered.append(face_48)
-		        y_train_filtered.append(int(data[0]))
-		    
-		trainingdata.close()
+			deactivated_expressions=self.checklist.get_deactivated_expressions()
+			for i in range(28709):
+			    data=trainingdata.readline() #read one image
+			    if i%500==0:
+			        self.progressbar['value']=int(i*100/28709)
+			    if int(data[0]) in deactivated_expressions:
+			        continue
+			    image_string=data[3:-2] #cut off irrelevant part of the string
+			    image=np.array([int(k) for k in image_string.split(' ')])
+			    image=image.reshape(48,48)
+			    image=np.uint8(image)
+			    face_locations=face_recognition.face_locations(image)
+			    if np.shape(face_locations)[0]==1:
+			        face_coords=face_locations[0]
+			        face=image[face_coords[0]:face_coords[2],face_coords[3]:face_coords[1]]
+			        #square crop still missing, there might be some stretching right now
+			        face_48=cv2.resize(face,(48,48),interpolation = cv2.INTER_AREA)
+			        x_train_filtered.append(face_48)
+			        y_train_filtered.append(int(data[0]))
+			    
+			trainingdata.close()
 
-		x_train=np.empty((len(x_train_filtered),48,48,1))
-		y_train=np.empty(len(y_train_filtered))
+			x_train=np.empty((len(x_train_filtered),48,48,1))
+			y_train=np.empty(len(y_train_filtered))
 
 
-		for i in range(len(x_train_filtered)):
-		    x_train[i]=x_train_filtered[i].reshape(48,48,1)
-		    y_train[i]=y_train_filtered[i]
+			for i in range(len(x_train_filtered)):
+			    x_train[i]=x_train_filtered[i].reshape(48,48,1)
+			    y_train[i]=y_train_filtered[i]
+
+
+		else:
+			self.progressbar.start()
+			x_train=np.load('image_data.npy')
+			y_train=np.load('emotion_data.npy')
 
 
 		test_size=1000
@@ -109,7 +121,7 @@ class Train_CNN:
 		model.add(Activation('relu'))
 		model.add(MaxPooling2D(pool_size=(2,2)))
 
-		model.add(Conv2D(32, (3,3)))
+		model.add(Conv2D(64, (3,3)))
 		model.add(Activation('relu'))
 		model.add(MaxPooling2D(pool_size=(2,2)))
 
@@ -149,7 +161,7 @@ class ChecklistBox(tk.Frame):
             self.vars.append(var)
             cb = tk.Checkbutton(self, var=var, text=choice,
                                 onvalue=choice, offvalue="",
-                                anchor="w", width=20, background=bg,
+                                anchor="w", width=10, background=bg,
                                 relief="flat", highlightthickness=0
             )
             cb.pack(side="top", fill="x", anchor="w")
