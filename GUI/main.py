@@ -13,6 +13,7 @@ from train_cnn import Train_CNN
 from trainingsdata import Trainingsdata
 from video import Video
 from adaboost import Adaboost
+from SVM import SVM
 
 from new_algorithm import Algorithm
 
@@ -64,7 +65,7 @@ video=Video(root,input,screengrab,cnn,adaboost,cam,_relx=relxspacing*3+2*relgrid
 trainingsdata=Trainingsdata(root,input,cnn,adaboost,_relx=relxspacing*3+2*relgridwidth,_relwidth=relgridwidth,_rely=relyspacing,_relheight=relgridheight,_anchor='nw')
 
 #new algorithm
-new_algorithm2=Algorithm(root,input,faces,_relx=relxspacing*2+relgridwidth,_relwidth=relgridwidth,_rely=relyspacing*2+relgridheight,_relheight=relgridheight,_anchor='nw')
+svm=SVM(root,input,faces,_relx=relxspacing*2+relgridwidth,_relwidth=relgridwidth,_rely=relyspacing*2+relgridheight,_relheight=relgridheight,_anchor='nw')
 
 #new algorithm
 new_algorithm3=Algorithm(root,input,faces,_relx=relxspacing*3+2*relgridwidth,_relwidth=relgridwidth,_rely=relyspacing*2+relgridheight,_relheight=relgridheight,_anchor='nw')
