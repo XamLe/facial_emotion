@@ -5,21 +5,25 @@
 \BOOKMARK [2][-]{subsection.2.2}{Basis ML 2}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{Classical learning}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Supervised}{section.3}% 7
-\BOOKMARK [3][-]{subsubsection.3.1.1}{Regression}{subsection.3.1}% 8
-\BOOKMARK [3][-]{subsubsection.3.1.2}{Classification}{subsection.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.2}{Unsupervised}{section.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Clustering}{subsection.3.2}% 11
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Pattern search}{subsection.3.2}% 12
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Dimension Reduction}{subsection.3.2}% 13
-\BOOKMARK [1][-]{section.4}{Neural Networks and Deep Learning}{}% 14
-\BOOKMARK [2][-]{subsection.4.1}{Convolutional Neural Networks CNN}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.2}{Recurrent Neural Networks RNN}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.3}{Generative adversarial networks GAN}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.4}{Autoencoders}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.5}{Perceptrons MLP}{section.4}% 19
-\BOOKMARK [1][-]{section.5}{Ensemble Methods}{}% 20
-\BOOKMARK [2][-]{subsection.5.1}{Bagging}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.2}{Boosting}{section.5}% 22
-\BOOKMARK [2][-]{subsection.5.3}{Stacking}{section.5}% 23
-\BOOKMARK [1][-]{section.6}{Reinforcement learning}{}% 24
-\BOOKMARK [1][-]{section.6}{Bibliography}{}% 25
+\BOOKMARK [2][-]{subsection.3.2}{Support Vector Machine}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Introduction}{subsection.3.2}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Mathematics behind SVMs}{subsection.3.2}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.3}{In our case}{subsection.3.2}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Regression}{subsection.3.2}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Classification}{subsection.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Unsupervised}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Clustering}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Pattern search}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Dimension Reduction}{subsection.3.3}% 17
+\BOOKMARK [1][-]{section.4}{Neural Networks and Deep Learning}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Convolutional Neural Networks CNN}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Recurrent Neural Networks RNN}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Generative adversarial networks GAN}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Autoencoders}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.5}{Perceptrons MLP}{section.4}% 23
+\BOOKMARK [1][-]{section.5}{Ensemble Methods}{}% 24
+\BOOKMARK [2][-]{subsection.5.1}{Bagging}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.2}{Boosting}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.3}{Stacking}{section.5}% 27
+\BOOKMARK [1][-]{section.6}{Reinforcement learning}{}% 28
+\BOOKMARK [1][-]{section.6}{Bibliography}{}% 29
