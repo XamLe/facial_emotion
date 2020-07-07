@@ -1,14 +1,87 @@
 \section{Classical learning}
-Difference between Supervised unsupervised.
+Difference between Supervised unsupervised. We need to check what we wrote in chapter 2 before writing this part.
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[scale=1]{Supervsunsuper1}
+	\caption{Supervised vs unsupervised}
+	% \vspace{-20pt}
+	\label{fig:Datensatz - unbearbeitet}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Supervised}
-Um einen Abfragepunkt zu klassifizieren, nutzt diese Methode die gespeicherten
+
+In supervised learning, we have a collection of input-output data pairs. In this case, the machine has a "supervisor" or a "teacher" who gives the machine all the answers, like whether it's a cat in the picture or a dog. The teacher has already divided (labeled) the data into cats and dogs, and the machine is using these examples to learn. One by one. Dog by cat. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\subsubsection{Regression}
+Regression is basically classification where we forecast a number instead of category. Examples are car price by its mileage, traffic by time of the day, demand volume by growth of the company etc.
+
+Like for all other subsubsections i would sugest that we structure the Algorithms like in the table at Ch.2.(\textbf{\underline{Algorithm}}, \textbf{\underline{possible application}}, etc.), but also add some links etc. Trainingsdaten und berechnet den Abstand zu den jeweiligen Merkmalen. In 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Classification}
+Splits objects based at one of the attributes known beforehand. Separate socks by based on color, documents based on language, music by genre. It is not limited to one attribute.
+Common algorithms are:\\
+Naive Bayes\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+K-Nearest-Neighbours(KNN)
+
+The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
+
+The straight-line distance (Euclidean distance) is a popular and familiar choice.
+Note that there are other ways of calculating distance, and one way might be preferable depending on the problem we are solving. Other distances could be Manhattan or Hamming.
+
+\textbf{\underline{Algorithm:}}\\
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[scale=1]{knn1}
+	\caption{K-Nearest Neighbors}
+	% \vspace{-20pt}
+	\label{fig:Datensatz - unbearbeitet}
+\end{figure}
+
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[scale=1]{knn2}
+	\caption{K-Nearest Neighbors}
+	% \vspace{-20pt}
+	\label{fig:Datensatz - unbearbeitet}
+\end{figure}
+
+\textbf{\underline{Possible application}}\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(classification-) Decision tree
+
+All the data is automatically divided to yes/no questions. This is done by selecting the question sucht that the best information gain is created(spliting the data via a feature which can seperate the different lables best).
+
+\textbf{\underline{Algorithm:}}\\
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[scale=0.5]{tree}
+	\caption{Dacision Tree}
+	% \vspace{-20pt}
+	\label{fig:Datensatz - unbearbeitet}
+\end{figure}
+
+K-Nearest-Neighbours(KNN)\\
+
+\textbf{\underline{Possible application}}\\
+
+Trees are used in ensemble methods (Random forest, adaboost,...). See chapter 5.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Support Vector Machine}
 \subsubsection{Introduction}
 
@@ -44,34 +117,36 @@ Now the model can give a prediction on new images. \\
 \includegraphics[scale=0.4]{Images/svm_prediction.png}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsubsection{Regression}
-Like for all other subsubsections i would sugest that we structure the Algorithms like in the table at Ch.2.(\textbf{\underline{Algorithm}}, \textbf{\underline{possible application}}, etc.), but also add some links etc. Trainingsdaten und berechnet den Abstand zu den jeweiligen Merkmalen. In 
- 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Classification}
-See regression
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Unsupervised}
-See regression
+
+Because our topic was a classification problem, we did not add content to this chapter. Like mentioned, in unsupervised learning one tryes to find structure in unlabled data.
+
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[scale=0.5]{cluster}
+	\caption{Clustering}
+	% \vspace{-20pt}
+	\label{fig:Datensatz - unbearbeitet}
+\end{figure}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Clustering}
-See regression
+TBA
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Pattern search}
-See regression
+TBA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsubsection{Dimension Reduction}
-See regression
+TBA
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
