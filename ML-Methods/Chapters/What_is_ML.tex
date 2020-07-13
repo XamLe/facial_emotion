@@ -1,6 +1,26 @@
 \section{What is ML?}
-First some words about ML. Maybe from Lotz, first chapter?
-Next we could use this graphic to visualize the topic.
+
+Machine learning is the field of study responsible for developing and understanding algorithms that allow computer systems to perform certain tasks independently. The type of tasks considered are these for which any rule-based approach is unfeasible, either because a precise set of rules is unclear, for example in pattern recognition, or because computing according to the rules is too complex, for example in playing Go. 
+
+Given a data set, the goal of a machine learning method can be of two types, one is to use the data to find a function, which will then match new input data to a value; another is to find a subdivision of the data set based on similarities. The methods used for the first type of goal are named \textit{supervised learning} methods and the given data set, called \textit{training set}, must be structured in pairs input-output. For the second type of goal, one uses \textit{unsupervised learning} methods.  
+
+In a supervised learning method, the output value is either quantitative or qualitative. For the problem of predicting the price of house given its area and location, the output is a quantitative value; these are called \textit{regression} problems. On the other hand, if the task is to address an emotion to a given face expression, the output is a qualitative value encoding a certain emotion; these are called \textit{classification} problems.
+
+Supervised learning methods are structured in two parts. Firstly it consists of a predetermined set of functions, called \textit{hypothesis space}, from which a final function will be chosen. Secondly the method needs a predetermined way of searching through the hypothesis space, therefore it requires a predetermined \textit{loss function} and \textit{optimization algorithm}. The choice of hypothesis space, loss function and optimization algorithm depends on the task and different methods need to be implemented and evaluated. For the task of recognizing facial emotion, it is known that between the methods so far developed, the best results are achieved by convolutional neural networks. Still, this project tests different methods one more time, for the sake of experience.
+
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[width=1\textwidth]{./Images/MLPipe}
+	\caption{The flow of developing an engine based on machine learning.}
+	% \vspace{-20pt}
+	\label{fig:Datensatz - unbearbeitet}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Basis ML 1(maybe Data)}
+We could speak a lil bit more about data in this topic?
+
 \begin{figure}[hbtp]
 	\centering
 	\includegraphics[width=1\textwidth]{ML}
@@ -13,12 +33,6 @@ Finally i would suggest to finish with a Table.
 
 I would structure it like:
 Algorithm, Main Idea(in like 3-5 sentences), possible application(image processing, clustering, etc.) advantages, disadvantages
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsection{Basis ML 1(maybe Data)}
-We could speak a lil bit more about data in this topic?
-
 
 
 
