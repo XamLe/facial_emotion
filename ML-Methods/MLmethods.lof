@@ -1,3 +1,10 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces ML-Overview}}{2}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Example of a CNN architecture}}{7}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Example of an autoencoder architecture}}{9}{figure.3}
+\contentsline {figure}{\numberline {1}{\ignorespaces The flow of developing an engine based on machine learning.}}{3}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces ML-Overview}}{4}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Supervised vs unsupervised}}{5}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces K-Nearest Neighbors}}{6}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces K-Nearest Neighbors}}{6}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Dacision Tree}}{7}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Clustering}}{9}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Example of a CNN architecture}}{10}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Example of an autoencoder architecture}}{12}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Bagging/Boosting}}{13}{figure.10}

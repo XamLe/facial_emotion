@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  6 JUL 2020 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.23)  14 JUL 2020 21:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,9 +196,6 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen130
 \l_MT_below_shortintertext_sep=\dimen131
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -310,24 +307,49 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-(./MLmethods.aux)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(./MLmethods.aux
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+
+LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
+
+)
 \openout1 = `MLmethods.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 17.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -396,7 +418,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -406,9 +428,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./MLmethods.out) (./MLmethods.out)
 \@outlinefile=\write3
@@ -450,54 +472,109 @@ ame identifier (name{page.1}) has been already used, duplicate ignored
                    \relax 
 l.9 \newpage
              [1]) (./Chapters/What_is_ML.tex
-<ML.jpg, id=175, 1407.2575pt x 1604.99625pt>
+<./Images/MLPipe.png, id=189, 613.29124pt x 571.13374pt>
+File: ./Images/MLPipe.png Graphic file (type png)
+<use ./Images/MLPipe.png>
+Package pdftex.def Info: ./Images/MLPipe.png  used on input line 13.
+(pdftex.def)             Requested size: 426.79135pt x 397.45534pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+<ML.jpg, id=191, 1407.2575pt x 1604.99625pt>
 File: ML.jpg Graphic file (type jpg)
 <use ML.jpg>
-Package pdftex.def Info: ML.jpg  used on input line 6.
+Package pdftex.def Info: ML.jpg  used on input line 26.
 (pdftex.def)             Requested size: 426.79135pt x 486.7435pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
- [2 <./ML.jpg>] [3])
-(./Chapters/Classical_learning.tex
-<Images/svm.png, id=184, 803.0pt x 347.2975pt>
+ [2] [3 <./Images/MLPipe.png>]
+[4 <./ML.jpg>]) (./Chapters/Classical_learning.tex
+<Supervsunsuper1.png, id=206, 290.5254pt x 212.4738pt>
+File: Supervsunsuper1.png Graphic file (type png)
+<use Supervsunsuper1.png>
+Package pdftex.def Info: Supervsunsuper1.png  used on input line 5.
+(pdftex.def)             Requested size: 290.52469pt x 212.47327pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+[5 <./Supervsunsuper1.png>]
+<knn1.jpg, id=212, 295.1025pt x 173.14688pt>
+File: knn1.jpg Graphic file (type jpg)
+<use knn1.jpg>
+Package pdftex.def Info: knn1.jpg  used on input line 45.
+(pdftex.def)             Requested size: 295.10176pt x 173.14645pt.
+<knn2.jpg, id=213, 288.3272pt x 176.15813pt>
+File: knn2.jpg Graphic file (type jpg)
+<use knn2.jpg>
+Package pdftex.def Info: knn2.jpg  used on input line 53.
+(pdftex.def)             Requested size: 288.32648pt x 176.15768pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+<tree.jpg, id=214, 785.93625pt x 239.39438pt>
+File: tree.jpg Graphic file (type jpg)
+<use tree.jpg>
+Package pdftex.def Info: tree.jpg  used on input line 71.
+(pdftex.def)             Requested size: 392.96716pt x 119.69688pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+[6 <./knn1.jpg> <./knn2.jpg>]
+<Images/svm.png, id=219, 803.0pt x 347.2975pt>
 File: Images/svm.png Graphic file (type png)
 <use Images/svm.png>
-Package pdftex.def Info: Images/svm.png  used on input line 21.
+Package pdftex.def Info: Images/svm.png  used on input line 94.
 (pdftex.def)             Requested size: 401.49902pt x 173.64832pt.
- [4 <./Images/svm.png>]
-<Images/trainingdata.png, id=197, 1075.01625pt x 318.18875pt>
+ [7 <./tree.jpg> <./Images/svm.png>]
+<Images/trainingdata.png, id=231, 1075.01625pt x 318.18875pt>
 File: Images/trainingdata.png Graphic file (type png)
 <use Images/trainingdata.png>
-Package pdftex.def Info: Images/trainingdata.png  used on input line 40.
+Package pdftex.def Info: Images/trainingdata.png  used on input line 113.
 (pdftex.def)             Requested size: 429.99889pt x 127.27324pt.
-<Images/trainmodel.png, id=199, 1063.975pt x 87.32625pt>
+<Images/trainmodel.png, id=232, 1063.975pt x 87.32625pt>
 File: Images/trainmodel.png Graphic file (type png)
 <use Images/trainmodel.png>
-Package pdftex.def Info: Images/trainmodel.png  used on input line 42.
+Package pdftex.def Info: Images/trainmodel.png  used on input line 115.
 (pdftex.def)             Requested size: 425.58246pt x 34.92987pt.
-<Images/svm_prediction.png, id=200, 1080.035pt x 64.24pt>
+<Images/svm_prediction.png, id=233, 1080.035pt x 64.24pt>
 File: Images/svm_prediction.png Graphic file (type png)
 <use Images/svm_prediction.png>
-Package pdftex.def Info: Images/svm_prediction.png  used on input line 44.
+Package pdftex.def Info: Images/svm_prediction.png  used on input line 117.
 (pdftex.def)             Requested size: 432.00635pt x 25.69554pt.
 
-Overfull \hbox (3.20753pt too wide) in paragraph at lines 38--45
-[]
- []
-
-
-Overfull \hbox (19.88107pt too wide) in paragraph at lines 38--45
-[] \T1/ptm/m/n/10 Now
- []
-
-
-Overfull \hbox (5.215pt too wide) in paragraph at lines 38--45
+Overfull \hbox (3.20753pt too wide) in paragraph at lines 111--118
 [] 
  []
 
-[5 <./Images/trainingdata.png> <./Images/trainmodel.png> <./Images/svm_predicti
-on.png>] [6]) (./Chapters/Neural_nets_and_deep_learning.tex
-<Images/CNN.jpeg, id=213, 1405.25pt x 751.80875pt>
+
+Overfull \hbox (5.215pt too wide) in paragraph at lines 111--118
+[] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 121.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
+<cluster.png, id=238, 395.97937pt x 179.92218pt>
+File: cluster.png Graphic file (type png)
+<use cluster.png>
+Package pdftex.def Info: cluster.png  used on input line 139.
+(pdftex.def)             Requested size: 197.9892pt x 89.96086pt.
+ [8 <./Images/trainingdata.png> <./Images/trainmodel.png> <./Images/svm_predict
+ion.png>]
+[9 <./cluster.png>]) (./Chapters/Neural_nets_and_deep_learning.tex
+<Images/CNN.jpeg, id=256, 1405.25pt x 751.80875pt>
 File: Images/CNN.jpeg Graphic file (type jpg)
 <use Images/CNN.jpeg>
 Package pdftex.def Info: Images/CNN.jpeg  used on input line 11.
@@ -528,12 +605,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-[7 <./Images/CNN.jpeg>]
+[10 <./Images/CNN.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
-<Images/Autoencoder.png, id=221, 1405.25pt x 798.985pt>
+<Images/Autoencoder.png, id=265, 1405.25pt x 798.985pt>
 File: Images/Autoencoder.png Graphic file (type png)
 <use Images/Autoencoder.png>
 Package pdftex.def Info: Images/Autoencoder.png  used on input line 53.
@@ -549,9 +626,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
-[8] [9 <./Images/Autoencoder.png (PNG copy)>]) (./Chapters/Ensemble_methods.tex
-[10]) (./Chapters/Reinforcement_learning.tex [11]) (./Chapters/Bibliography.tex
-
+[11] [12 <./Images/Autoencoder.png (PNG copy)>])
+(./Chapters/Ensemble_methods.tex
+<ensemble_1.jpg, id=275, 596.2275pt x 316.18124pt>
+File: ensemble_1.jpg Graphic file (type jpg)
+<use ensemble_1.jpg>
+Package pdftex.def Info: ensemble_1.jpg  used on input line 6.
+(pdftex.def)             Requested size: 298.11302pt x 158.09023pt.
+ [13 <./ensemble_1.jpg>])
+(./Chapters/Reinforcement_learning.tex [14]) (./Chapters/Bibliography.tex
 Underfull \hbox (badness 7273) in paragraph at lines 9--10
 []\T1/ptm/m/sc/10 Deutsche Ak-tu-arvere-ini-gung e.V.\T1/ptm/m/n/10 , 2012: Uni
 sex-Tarifierung, abgerufen am 10.
@@ -563,41 +646,59 @@ Underfull \hbox (badness 5924) in paragraph at lines 9--10
 sversicherung_Unisex_Aktuar-
  []
 
-[12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+[15])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
  (./MLmethods.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
 Package rerunfilecheck Info: File `MLmethods.out' has not changed.
-(rerunfilecheck)             Checksum: FB5A4446ED1F39C010807F3FBD44FF61;1887.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
+(rerunfilecheck)             Checksum: B7F3764DDD6133D138200B96804114BB;1887.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
  ) 
 Here is how much of TeX's memory you used:
- 7370 strings out of 492649
- 107692 string characters out of 6129622
- 204614 words of memory out of 5000000
- 11063 multiletter control sequences out of 15000+600000
+ 7437 strings out of 492649
+ 108941 string characters out of 6129622
+ 204653 words of memory out of 5000000
+ 11105 multiletter control sequences out of 15000+600000
  45361 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,28p,697b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
-18/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on MLmethods.pdf (15 pages, 933631 bytes).
+ 28i,8n,28p,840b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{https://en.wikipedia.org/wiki/Support\\protect\04
+0\\T1\\textunderscore\040vector\\protect\040\\T1\\textunderscore\040machine} ha
+s been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://www.coursera.org/learn/machine-learning/hom
+e/welcome} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/svm.html} h
+as been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/generated/s
+klearn.svm.SVC.html} has been referenced but does not exist, replaced by a fixe
+d one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on MLmethods.pdf (18 pages, 1375914 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 348 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 
