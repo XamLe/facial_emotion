@@ -4,7 +4,7 @@ Machine learning is the field of study responsible for developing and understand
 
 Given a data set, the goal of a machine learning method can be of two types, one is to use the data to find a function, which will then match new input data to a value; another is to find a subdivision of the data set based on similarities. The methods used for the first type of goal are named \textit{supervised learning} methods and the given data set, called \textit{training set}, must be structured in pairs input-output. For the second type of goal, one uses \textit{unsupervised learning} methods.  
 
-In a supervised learning method, the output value is either quantitative or qualitative. For the problem of predicting the price of house given its area and location, the output is a quantitative value; these are called \textit{regression} problems. On the other hand, if the task is to address an emotion to a given face expression, the output is a qualitative value encoding a certain emotion; these are called \textit{classification} problems.
+In a supervised learning method, the output value is either quantitative or qualitative. For the problem of predicting the price of a house given its area and location, the output is a quantitative value; these are called \textit{regression} problems. On the other hand, if the task is to address an emotion to a given face expression, the output is a qualitative value encoding a certain emotion; these are called \textit{classification} problems.
 
 Supervised learning methods are structured in two parts. Firstly it consists of a predetermined set of functions, called \textit{hypothesis space}, from which a final function will be chosen. Secondly the method needs a predetermined way of searching through the hypothesis space, therefore it requires a predetermined \textit{loss function} and \textit{optimization algorithm}. The choice of hypothesis space, loss function and optimization algorithm depends on the task and different methods need to be implemented and evaluated. For the task of recognizing facial emotion, it is known that between the methods so far developed, the best results are achieved by convolutional neural networks. Still, this project tests different methods one more time, for the sake of experience.
 
@@ -18,7 +18,7 @@ Supervised learning methods are structured in two parts. Firstly it consists of 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{A first approach to Machine Learning: Linear Regression}
+\subsection{A first approach to Machine Learning methods}
 
 Machine Learning is not a new paradigm for developing algorithms, however the field's growing pace increased drastically in the 1990s. This was when the computational power and volume of available data finally allowed practical research. Due to this fast and recent development, multiple methods emerged without an established theory and organization as a base. For that reason, giving a brief overview on the most common algorithms can be a debatable and overwhelming task. 
 
@@ -30,7 +30,7 @@ Machine Learning is not a new paradigm for developing algorithms, however the fi
 	\label{fig:Datensatz - unbearbeitet}
 \end{figure}
 
-Nevertheless, giving the idea of some machine learning methods is still an interesting way to stablish a more concrete understanding of the field. In this section we give a brief overview on Linear Regression as an introductory example. 
+Nevertheless, giving the idea of some machine learning methods is still an interesting way to stablish a more concrete understanding of the field. In this section we give a brief overview on Linear Regression, as an introductory example. 
 
 In the following chapters we discuss $K$-Nearest Neighbours, Support Vector Machines,  Decision Trees, AdaBoost and Neural Networks.
 
@@ -59,20 +59,20 @@ Finally, an optimization algorithm is used to solve the problem
 \]
 In this step, it is important that the empirical risk is a differentiable (or at least continuous) function.
 
-\textbf{Notes}
+\subsubsection{Methods in General}
 
-This same approach can be used for a hypothesis space~$\mathcal{H}$ consisting of another type of (non-linear) functions, for example polynomials. If the functions in~$\mathcal{H}$ are also determined by few parameters, a minimizer might be found using methods from numerical optimization.
+This same approach can be used for a hypothesis space~$\mathcal{H}$ consisting of another type of (non-linear) functions, for example polynomials. If the functions in~$\mathcal{H}$ are also determined by few parameters, a minimizer might be found in closed form. 
 
-Also, this approach can be used with different loss-functions. A desirable loss-function could be the indicator
+Some other times, the functions in~$\mathcal{H}$ may be a composition of many simpler functions, for example in decision trees and neural networks. In these situations, the number of parameters defining these functions might be huge, but here the focus is in the simplicity of computing these functions. Finding a minimizer in these cases require methods from numerical optimization for example, the algorithm of gradient-descent and for the composition of functions, methods such as backpropagation.
+
+There are also various choices for the loss-function and it depends on the type of task to be solved. A desirable loss-function could be the indicator
 \[
-L(h(x), y) = \mathds{1}_{\{h(x) = y\}} = \left\{ \begin{array}{lr}
-1, & \text{if } h(x) = y\\
-0, & \text{if } h(x)\neq y
+L(h(x), y) = \mathds{1}_{\{h(x) \neq y\}} = \left\{ \begin{array}{lr}
+1, & \text{if } h(x) \neq y\\
+0, & \text{if } h(x) = y
 \end{array} \right. .
 \]
-Nevertheless, this function is not continuous. Therefore one might look for ways os approximating it. 
-
-In the case of a binary classifier, i.e.,~$\mathcal{Y} = \{0, 1\}$, a continuous approximation is the log-loss or cross-entropy function
+Nevertheless, this function is not continuous. Therefore one might look for ways of approximating it. In the case of a binary classifier, i.e.,~$\mathcal{Y} = \{0, 1\}$, a continuous approximation is the log-loss or cross-entropy function
 \[
 L(h(x), y) = \left\{ 
 \begin{array}{lr}
@@ -82,16 +82,21 @@ L(h(x), y) = \left\{
 \]
 this gives large values when~$h(x)$ and~$y$ mismatch.
 
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{The training Data}
-TBA
+\subsection{Evaluating a method}
 
+If the machine learning method learns a function~$h$ which performs perfectly in the training set (the empirical error is $0$), but does not generalize to a new input, then the engine built cannot be considered successful. The problem of a method only memorizing the training set is called \textit{overfitting}. 
 
+A way of measuring the generalization capacity of a classifier is by modelling the training set as samples from a pairs of random variables~$(X_i, Y_i)$ that are independently identically  distributed. Then the empirical risk becomes a random variable, whose expected value is called~\textit{generalization risk}. 
 
+The generalization capacity of an empirical risk minimizer~$h$ given by the machine learning method can be measured by the \textit{estimation error}, which compares the generalization risk of~$h$ to the minimum generalization risk achieved by some function in~$\mathcal{H}$. An absolute way of measuring the generalization capacity of~$\mathcal{H}$ is given by the~\textit{approximation error}, which measures the smallest possible generalization risk achieved by a function in~$\mathcal{H}$.
+
+The estimation error and approximation error have a trade-off. Whenever the set~$\mathcal{H}$ is too large (compared to the training set, for example), it is likely that a function with very small generalization risk can be found and therefore the approximation error is small. But at the same time, it is more likely that the function~$h$ chosen by the method overfits, and therefore has big generalization risk. In this case the estimation error is likely to be large. Whenever the set~$\mathcal{H}$ is too small, the approximation error might be big. But the function~$h$ is likely to be close to the function in~$\mathcal{H}$ minimizing the approximation error and, therefore, the estimation error is small.  
+
+The study of the relationship between the generalization risk, the empirical risk, the capacity of a hypothesis space and the number of samples, is within the field of Statistical Learning Theory. 
+
+For our practical purpose of good training of facial emotion classifiers, we prevented overfitting by working on the data set, for example mirroring the images, by dropping out badly labelled pairs and by stopping the training whenever stagnation in the validation accuracy was observed. Our data set, made available from a Kaggle competition, consisted of 28.709 training pairs and 7.178 testing pairs. The input were $48 \times 48$ grayscale images of faces and the output were within 7 emotions: angry, disgusted, frightened, sad, surprised, happy and neutral. We also trained the methods on fewer emotions to achieve better accuracy. 
 
 
 \newpage

@@ -1,20 +1,22 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{What is ML?}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{A first approach to Machine Learning: Linear Regression}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.1}{A first approach to Machine Learning methods}{section.2}% 3
 \BOOKMARK [3][-]{subsubsection.2.1.1}{Linear Regression}{subsection.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.2}{The training Data}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{Classical learning}{}% 6
-\BOOKMARK [2][-]{subsection.3.1}{KNN}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Decision Trees}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.3}{Support Vector Machine}{section.3}% 9
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Introduction}{subsection.3.3}% 10
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Linear Support Vector Machines}{subsection.3.3}% 11
-\BOOKMARK [3][-]{subsubsection.3.3.3}{Mathematics behind SVMs}{subsection.3.3}% 12
-\BOOKMARK [3][-]{subsubsection.3.3.4}{In our case}{subsection.3.3}% 13
-\BOOKMARK [1][-]{section.4}{Neural Networks and Deep Learning}{}% 14
-\BOOKMARK [2][-]{subsection.4.1}{Convolutional Neural Networks CNN}{section.4}% 15
-\BOOKMARK [2][-]{subsection.4.2}{Recurrent Neural Networks RNN}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.3}{Generative adversarial networks GAN}{section.4}% 17
-\BOOKMARK [2][-]{subsection.4.4}{Autoencoders}{section.4}% 18
-\BOOKMARK [1][-]{section.5}{Ensemble Methods}{}% 19
-\BOOKMARK [2][-]{subsection.5.1}{AdaBoost}{section.5}% 20
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Methods in General}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Evaluating a method}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Classical learning}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{KNN}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Decision Trees}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Support Vector Machine}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Introduction}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Linear Support Vector Machines}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Mathematics behind SVMs}{subsection.3.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.3.4}{In our case}{subsection.3.3}% 14
+\BOOKMARK [1][-]{section.4}{Neural Networks and Deep Learning}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Convolutional Neural Networks CNN}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Recurrent Neural Networks RNN}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Generative adversarial networks GAN}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Autoencoders}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.5}{Perceptrons MLP}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Ensemble Methods}{}% 21
+\BOOKMARK [2][-]{subsection.5.1}{AdaBoost}{section.5}% 22

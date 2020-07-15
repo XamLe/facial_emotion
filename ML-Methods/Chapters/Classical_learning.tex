@@ -75,8 +75,6 @@ The so called kernel trick can be applied when non linear data has to be classif
 
 \subsubsection{Linear Support Vector Machines}
 
-This is one of the algorithms implemented in this project and there is a future section devoted to it. 
-
 For a short introduction, assume the Support Vector Machine algorithm is being used for a binary classification problem~$\mathcal{Y} = \{-1, 1\}$, that the training set has~$\mathcal{X} \subset \mathbb{R}^d$ and the subsets~$X_{-1} = \{ x^i\in \mathcal{X} \colon y^i = -1 \}$, ~$X_{1} = \{ x^i\in \mathcal{X} \colon y^i = 1 \}$ can be the separated by an affine hyperplane. Under these assumptions, the hypothesis space is the set of affine hyperplanes in~$\mathbb{R}^d$ that separate the training data and not all possible affine hyperplanes, as in Linear regression.
 
 While in Linear Regression the empirical risk adds an error for each element in the data set, in SVMs the error of a given hyperplane is the sum~$\delta_{-} + \delta_{+}$, where~$\delta_{-}$ is the minimum distance between the hyperplane and an input point which would be classified as~$-1$ and~$\delta_{+}$ is defined analogously, for an input point which would be classified as~$1$.

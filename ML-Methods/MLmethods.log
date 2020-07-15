@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.22)  15 JUL 2020 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.22)  15 JUL 2020 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,7 +459,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [2])
 (./Chapters/Introduction.tex) (./Chapters/What_is_ML.tex
-<./Images/MLPipe.png, id=112, 847.165pt x 206.7725pt>
+<./Images/MLPipe.png, id=127, 847.165pt x 206.7725pt>
 File: ./Images/MLPipe.png Graphic file (type png)
 <use ./Images/MLPipe.png>
 Package pdftex.def Info: ./Images/MLPipe.png  used on input line 13.
@@ -472,24 +472,24 @@ been already used, duplicate ignored
                    \relax 
 l.24 
       [1 <./Images/MLPipe.png>]
-<ML.jpg, id=119, 1407.2575pt x 1604.99625pt>
+<ML.jpg, id=134, 1407.2575pt x 1604.99625pt>
 File: ML.jpg Graphic file (type jpg)
 <use ML.jpg>
 Package pdftex.def Info: ML.jpg  used on input line 27.
 (pdftex.def)             Requested size: 426.79135pt x 486.7435pt.
  [2 <./ML.jpg>]
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 68.
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 70.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-) [3])
-(./Chapters/Classical_learning.tex
-<knn1.jpg, id=137, 295.1025pt x 173.14688pt>
+) [3]
+[4]) (./Chapters/Classical_learning.tex
+<knn1.jpg, id=156, 295.1025pt x 173.14688pt>
 File: knn1.jpg Graphic file (type jpg)
 <use knn1.jpg>
 Package pdftex.def Info: knn1.jpg  used on input line 15.
 (pdftex.def)             Requested size: 236.0823pt x 138.51768pt.
-<knn2.jpg, id=138, 288.3272pt x 176.15813pt>
+<knn2.jpg, id=157, 288.3272pt x 176.15813pt>
 File: knn2.jpg Graphic file (type jpg)
 <use knn2.jpg>
 Package pdftex.def Info: knn2.jpg  used on input line 23.
@@ -513,46 +513,46 @@ Overfull \hbox (31.70332pt too wide) in paragraph at lines 34--35
 dia.org/wiki/Nächste-Nachbarn-Klassifikation[] 
  []
 
-[4 <./knn1.jpg> <./knn2.jpg>]
-<tree.jpg, id=150, 785.93625pt x 239.39438pt>
+[5 <./knn1.jpg> <./knn2.jpg>]
+<tree.jpg, id=171, 785.93625pt x 239.39438pt>
 File: tree.jpg Graphic file (type jpg)
 <use tree.jpg>
 Package pdftex.def Info: tree.jpg  used on input line 46.
 (pdftex.def)             Requested size: 392.96716pt x 119.69688pt.
-<Images/svm.png, id=154, 803.0pt x 347.2975pt>
+<Images/svm.png, id=175, 803.0pt x 347.2975pt>
 File: Images/svm.png Graphic file (type png)
 <use Images/svm.png>
 Package pdftex.def Info: Images/svm.png  used on input line 73.
 (pdftex.def)             Requested size: 401.49902pt x 173.64832pt.
- [5 <./tree.jpg>] [6 <./Images/svm.png>]
-<Images/trainingdata.png, id=171, 1075.01625pt x 318.18875pt>
+ [6 <./tree.jpg>] [7 <./Images/svm.png>]
+<Images/trainingdata.png, id=190, 1075.01625pt x 318.18875pt>
 File: Images/trainingdata.png Graphic file (type png)
 <use Images/trainingdata.png>
-Package pdftex.def Info: Images/trainingdata.png  used on input line 101.
+Package pdftex.def Info: Images/trainingdata.png  used on input line 99.
 (pdftex.def)             Requested size: 429.99889pt x 127.27324pt.
-<Images/trainmodel.png, id=172, 1063.975pt x 87.32625pt>
+<Images/trainmodel.png, id=191, 1063.975pt x 87.32625pt>
 File: Images/trainmodel.png Graphic file (type png)
 <use Images/trainmodel.png>
-Package pdftex.def Info: Images/trainmodel.png  used on input line 103.
+Package pdftex.def Info: Images/trainmodel.png  used on input line 101.
 (pdftex.def)             Requested size: 425.58246pt x 34.92987pt.
-<Images/svm_prediction.png, id=173, 1080.035pt x 64.24pt>
+<Images/svm_prediction.png, id=192, 1080.035pt x 64.24pt>
 File: Images/svm_prediction.png Graphic file (type png)
 <use Images/svm_prediction.png>
-Package pdftex.def Info: Images/svm_prediction.png  used on input line 105.
+Package pdftex.def Info: Images/svm_prediction.png  used on input line 103.
 (pdftex.def)             Requested size: 432.00635pt x 25.69554pt.
 
-Overfull \hbox (3.20753pt too wide) in paragraph at lines 99--106
+Overfull \hbox (3.20753pt too wide) in paragraph at lines 97--104
 [] 
  []
 
 
-Overfull \hbox (5.215pt too wide) in paragraph at lines 99--106
+Overfull \hbox (5.215pt too wide) in paragraph at lines 97--104
 [] 
  []
 
-[7 <./Images/trainingdata.png> <./Images/trainmodel.png> <./Images/svm_predicti
+[8 <./Images/trainingdata.png> <./Images/trainmodel.png> <./Images/svm_predicti
 on.png>]) (./Chapters/Neural_nets_and_deep_learning.tex
-<Images/CNN.jpeg, id=190, 1405.25pt x 751.80875pt>
+<Images/CNN.jpeg, id=208, 1405.25pt x 751.80875pt>
 File: Images/CNN.jpeg Graphic file (type jpg)
 <use Images/CNN.jpeg>
 Package pdftex.def Info: Images/CNN.jpeg  used on input line 11.
@@ -583,64 +583,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-[8 <./Images/CNN.jpeg>]
+[9 <./Images/CNN.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
-<Images/Autoencoder.png, id=199, 1405.25pt x 798.985pt>
-File: Images/Autoencoder.png Graphic file (type png)
-<use Images/Autoencoder.png>
-Package pdftex.def Info: Images/Autoencoder.png  used on input line 53.
-(pdftex.def)             Requested size: 426.79135pt x 242.65988pt.
 
-Overfull \hbox (86.20865pt too wide) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Overfull \hbox (86.20865pt too wide) in paragraph at lines 51--55
 []$\T1/pcr/m/n/10 https : / / towardsdatascience . com / applied-[]deep-[]learn
 ing-[]part-[]3-[]autoencoders-[]1c083af4d798$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 51--55
 
  []
 
-[9]) (./Chapters/Ensemble_methods.tex
-<ensemble_1.jpg, id=205, 596.2275pt x 316.18124pt>
+<Images/Autoencoder.png, id=218, 1405.25pt x 798.985pt>
+File: Images/Autoencoder.png Graphic file (type png)
+<use Images/Autoencoder.png>
+Package pdftex.def Info: Images/Autoencoder.png  used on input line 62.
+(pdftex.def)             Requested size: 426.79135pt x 242.65988pt.
+[10] [11 <./Images/Autoencoder.png (PNG copy)>])
+(./Chapters/Ensemble_methods.tex
+<ensemble_1.jpg, id=229, 596.2275pt x 316.18124pt>
 File: ensemble_1.jpg Graphic file (type jpg)
 <use ensemble_1.jpg>
 Package pdftex.def Info: ensemble_1.jpg  used on input line 6.
 (pdftex.def)             Requested size: 298.11302pt x 158.09023pt.
- [10 <./Images/Autoencoder.png (PNG copy)> <./ensemble_1.jpg>]
-<Images/Adaboost_1.png, id=212, 510.40688pt x 253.69781pt>
+<Images/Adaboost_1.png, id=230, 510.40688pt x 253.69781pt>
 File: Images/Adaboost_1.png Graphic file (type png)
 <use Images/Adaboost_1.png>
 Package pdftex.def Info: Images/Adaboost_1.png  used on input line 24.
 (pdftex.def)             Requested size: 408.32605pt x 202.95851pt.
- [11 <./Images/Adaboost_1.png>])
+ [12 <./ensemble_1.jpg>] [13 <./Images/Adaboost_1.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./MLmethods.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+Package rerunfilecheck Info: File `MLmethods.out' has not changed.
+(rerunfilecheck)             Checksum: 20453A38F5D1ADD041375725DC2CA698;1516.
 
-
-Package rerunfilecheck Warning: File `MLmethods.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `MLmethods.out':
-(rerunfilecheck)             Before: 03F876ED92DB3AD0E417AB148623F2B4;1292
-(rerunfilecheck)             After:  4C8166D2B632698A2531A443BFD0EE8C;1382.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
  ) 
 Here is how much of TeX's memory you used:
- 7432 strings out of 492646
- 109562 string characters out of 6129563
+ 7439 strings out of 492646
+ 109667 string characters out of 6129563
  204029 words of memory out of 5000000
- 11111 multiletter control sequences out of 15000+600000
+ 11114 multiletter control sequences out of 15000+600000
  43721 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,9n,28p,840b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -709,10 +708,10 @@ exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
 -dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on MLmethods.pdf (13 pages, 1211595 bytes).
+Output written on MLmethods.pdf (15 pages, 1215398 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
