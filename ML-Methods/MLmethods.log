@@ -1,13 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.22)  14 JUL 2020 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.12.8)  15 JUL 2020 15:25
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**MLmethods.tex
-(./MLmethods.tex
+**./MLmethods.tex
+(MLmethods.tex
 LaTeX2e <2018-04-01> patch level 5
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -22,33 +20,33 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -63,48 +61,49 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/times.sty
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen113
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen114
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -145,27 +144,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
 \multirow@colwidth=\skip46
 \multirow@cntb=\count103
 \multirow@dima=\skip47
 \bigstrutjot=\dimen122
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+("C:\Users\Timo Kias\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mathtools.s
+ty"
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count104
 \calc@Bcount=\count105
@@ -178,13 +177,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count106
 \calc@Cskip=\skip50
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
+("C:\Users\Timo Kias\AppData\Roaming\MiKTeX\2.9\tex\latex\mathtools\mhsetup.sty
+"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 \g_MT_multlinerow_int=\count107
 \l_MT_multwidth_dim=\dimen125
 \origjot=\skip51
@@ -194,15 +194,16 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen129
 \l_MT_above_shortintertext_sep=\dimen130
 \l_MT_below_shortintertext_sep=\dimen131
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+\xmathstrut@box=\box28
+\xmathstrut@dim=\dimen132
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -213,13 +214,9 @@ Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -241,81 +238,75 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen132
+\@linkdim=\dimen133
 \Hy@linkcounter=\count108
 \Hy@pagecounter=\count109
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count110
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
+Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count111
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Timo Kias\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen133
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen134
 \Fld@menulength=\count112
-\Field@Width=\dimen134
-\Fld@charsize=\dimen135
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
+\Field@Width=\dimen135
+\Fld@charsize=\dimen136
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
 \Hy@abspage=\count113
 \c@Item=\count114
 \c@Hfootnote=\count115
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
 \Fld@listcount=\count116
 \c@bookmark@seq@number=\count117
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip52
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Users\Timo Kias\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+"
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(./MLmethods.aux
-
-LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
-
-
-LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
-
+) (MLmethods.aux
 
 LaTeX Warning: Label `fig:Datensatz - unbearbeitet' multiply defined.
 
@@ -349,7 +340,7 @@ LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 17.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -386,23 +377,23 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Users\Timo Kias\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count118
-\scratchdimen=\dimen136
-\scratchbox=\box28
+\scratchdimen=\dimen137
+\scratchbox=\box29
 \nofMPsegments=\count119
 \nofMParguments=\count120
 \everyMPshowfont=\toks23
 \MPscratchCnt=\count121
-\MPscratchDim=\dimen137
+\MPscratchDim=\dimen138
 \MPnumerator=\count122
 \makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks24
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -411,18 +402,14 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\AtBeginShipoutBox=\box29
+)
+\AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 17.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count124
@@ -431,11 +418,11 @@ LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
 
-(./MLmethods.out) (./MLmethods.out)
+(MLmethods.out) (MLmethods.out)
 \@outlinefile=\write3
 \openout3 = `MLmethods.out'.
 
- (./Chapters/title_and_contents.tex
+ (Chapters/title_and_contents.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
@@ -444,143 +431,120 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
  [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/Timo Kias/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
-
-(./MLmethods.toc
+ (MLmethods.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
 \openout4 = `MLmethods.toc'.
 
- [2]
-(./MLmethods.lof)
-\tf@lof=\write5
-\openout5 = `MLmethods.lof'.
-
- [3]) (./Chapters/Introduction.tex) (./Chapters/What_is_ML.tex
-<./Images/MLPipe.png, id=186, 847.165pt x 206.7725pt>
+ [2])
+(Chapters/Introduction.tex) (Chapters/What_is_ML.tex
+<./Images/MLPipe.png, id=96, 847.165pt x 206.7725pt>
 File: ./Images/MLPipe.png Graphic file (type png)
 <use ./Images/MLPipe.png>
 Package pdftex.def Info: ./Images/MLPipe.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79135pt x 104.16844pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
-<ML.jpg, id=188, 1407.2575pt x 1604.99625pt>
+<ML.jpg, id=98, 1407.2575pt x 1604.99625pt>
 File: ML.jpg Graphic file (type jpg)
 <use ML.jpg>
-Package pdftex.def Info: ML.jpg  used on input line 26.
+Package pdftex.def Info: ML.jpg  used on input line 21.
 (pdftex.def)             Requested size: 426.79135pt x 486.7435pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \end{figure}
-                  [1 <./Images/MLPipe.png>] [2 <./ML.jpg>])
-(./Chapters/Classical_learning.tex
-<Supervsunsuper1.png, id=197, 290.5254pt x 212.4738pt>
-File: Supervsunsuper1.png Graphic file (type png)
-<use Supervsunsuper1.png>
-Package pdftex.def Info: Supervsunsuper1.png  used on input line 5.
-(pdftex.def)             Requested size: 290.52469pt x 212.47327pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--31
-
- []
-
-[3 <./Supervsunsuper1.png>]
-<knn1.jpg, id=203, 295.1025pt x 173.14688pt>
+l.28 \newpage
+              [1 <./Images/MLPipe.png>] [2 <./ML.jpg>])
+(Chapters/Classical_learning.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
+<knn1.jpg, id=109, 295.1025pt x 173.14688pt>
 File: knn1.jpg Graphic file (type jpg)
 <use knn1.jpg>
-Package pdftex.def Info: knn1.jpg  used on input line 45.
-(pdftex.def)             Requested size: 295.10176pt x 173.14645pt.
-<knn2.jpg, id=204, 288.3272pt x 176.15813pt>
+Package pdftex.def Info: knn1.jpg  used on input line 15.
+(pdftex.def)             Requested size: 236.0823pt x 138.51768pt.
+<knn2.jpg, id=110, 288.3272pt x 176.15813pt>
 File: knn2.jpg Graphic file (type jpg)
 <use knn2.jpg>
-Package pdftex.def Info: knn2.jpg  used on input line 53.
-(pdftex.def)             Requested size: 288.32648pt x 176.15768pt.
+Package pdftex.def Info: knn2.jpg  used on input line 23.
+(pdftex.def)             Requested size: 230.66205pt x 140.92668pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-<tree.jpg, id=205, 785.93625pt x 239.39438pt>
-File: tree.jpg Graphic file (type jpg)
-<use tree.jpg>
-Package pdftex.def Info: tree.jpg  used on input line 71.
-(pdftex.def)             Requested size: 392.96716pt x 119.69688pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-[4 <./knn1.jpg> <./knn2.jpg>]
-<Images/svm.png, id=211, 803.0pt x 347.2975pt>
-File: Images/svm.png Graphic file (type png)
-<use Images/svm.png>
-Package pdftex.def Info: Images/svm.png  used on input line 94.
-(pdftex.def)             Requested size: 401.49902pt x 173.64832pt.
- [5 <./tree.jpg> <./Images/svm.png>]
-<Images/trainingdata.png, id=223, 1075.01625pt x 318.18875pt>
-File: Images/trainingdata.png Graphic file (type png)
-<use Images/trainingdata.png>
-Package pdftex.def Info: Images/trainingdata.png  used on input line 113.
-(pdftex.def)             Requested size: 429.99889pt x 127.27324pt.
-<Images/trainmodel.png, id=224, 1063.975pt x 87.32625pt>
-File: Images/trainmodel.png Graphic file (type png)
-<use Images/trainmodel.png>
-Package pdftex.def Info: Images/trainmodel.png  used on input line 115.
-(pdftex.def)             Requested size: 425.58246pt x 34.92987pt.
-<Images/svm_prediction.png, id=225, 1080.035pt x 64.24pt>
-File: Images/svm_prediction.png Graphic file (type png)
-<use Images/svm_prediction.png>
-Package pdftex.def Info: Images/svm_prediction.png  used on input line 117.
-(pdftex.def)             Requested size: 432.00635pt x 25.69554pt.
-
-Overfull \hbox (3.20753pt too wide) in paragraph at lines 111--118
-[] 
- []
-
-
-Overfull \hbox (5.215pt too wide) in paragraph at lines 111--118
-[] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 121.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 121.
-<cluster.png, id=230, 395.97937pt x 179.92218pt>
-File: cluster.png Graphic file (type png)
-<use cluster.png>
-Package pdftex.def Info: cluster.png  used on input line 139.
-(pdftex.def)             Requested size: 197.9892pt x 89.96086pt.
- [6 <./Images/trainingdata.png> <./Images/trainmodel.png> <./Images/svm_predict
-ion.png>]
-[7 <./cluster.png>]) (./Chapters/Neural_nets_and_deep_learning.tex
-<Images/CNN.jpeg, id=248, 1405.25pt x 751.80875pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+
+Overfull \hbox (24.68263pt too wide) in paragraph at lines 32--34
+[]\T1/ptm/m/n/10 scikit-learn: []https://scikit-learn.org/stable/modules/genera
+ted/sklearn.neighbors.KNeighborsClassifier.html[] 
+ []
+
+
+Overfull \hbox (31.70332pt too wide) in paragraph at lines 34--35
+[]\T1/ptm/m/n/10 Wikipedia: Nächste-Nachbarn-Klassifikation []https://de.wikipe
+dia.org/wiki/Nächste-Nachbarn-Klassifikation[] 
+ []
+
+[3 <./knn1.jpg> <./knn2.jpg>]
+<tree.jpg, id=123, 785.93625pt x 239.39438pt>
+File: tree.jpg Graphic file (type jpg)
+<use tree.jpg>
+Package pdftex.def Info: tree.jpg  used on input line 46.
+(pdftex.def)             Requested size: 392.96716pt x 119.69688pt.
+<Images/svm.png, id=127, 803.0pt x 347.2975pt>
+File: Images/svm.png Graphic file (type png)
+<use Images/svm.png>
+Package pdftex.def Info: Images/svm.png  used on input line 73.
+(pdftex.def)             Requested size: 401.49902pt x 173.64832pt.
+ [4 <./tree.jpg>]
+<Images/trainingdata.png, id=138, 1075.01625pt x 318.18875pt>
+File: Images/trainingdata.png Graphic file (type png)
+<use Images/trainingdata.png>
+Package pdftex.def Info: Images/trainingdata.png  used on input line 92.
+(pdftex.def)             Requested size: 429.99889pt x 127.27324pt.
+<Images/trainmodel.png, id=139, 1063.975pt x 87.32625pt>
+File: Images/trainmodel.png Graphic file (type png)
+<use Images/trainmodel.png>
+Package pdftex.def Info: Images/trainmodel.png  used on input line 94.
+(pdftex.def)             Requested size: 425.58246pt x 34.92987pt.
+<Images/svm_prediction.png, id=140, 1080.035pt x 64.24pt>
+File: Images/svm_prediction.png Graphic file (type png)
+<use Images/svm_prediction.png>
+Package pdftex.def Info: Images/svm_prediction.png  used on input line 96.
+(pdftex.def)             Requested size: 432.00635pt x 25.69554pt.
+
+Overfull \hbox (3.20753pt too wide) in paragraph at lines 90--97
+[] 
+ []
+
+
+Overfull \hbox (5.215pt too wide) in paragraph at lines 90--97
+[] 
+ []
+
+[5 <./Images/svm.png>] [6 <./Images/trainingdata.png> <./Images/trainmodel.png>
+ <./Images/svm_prediction.png>]) (Chapters/Neural_nets_and_deep_learning.tex
+<Images/CNN.jpeg, id=167, 1405.25pt x 751.80875pt>
 File: Images/CNN.jpeg Graphic file (type jpg)
 <use Images/CNN.jpeg>
 Package pdftex.def Info: Images/CNN.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 426.79135pt x 228.33197pt.
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 18.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pcr.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Overfull \hbox (244.20865pt too wide) in paragraph at lines 15--20
@@ -604,12 +568,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
 
-[8 <./Images/CNN.jpeg>]
+[7 <./Images/CNN.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
-<Images/Autoencoder.png, id=256, 1405.25pt x 798.985pt>
+<Images/Autoencoder.png, id=176, 1405.25pt x 798.985pt>
 File: Images/Autoencoder.png Graphic file (type png)
 <use Images/Autoencoder.png>
 Package pdftex.def Info: Images/Autoencoder.png  used on input line 53.
@@ -625,51 +589,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--61
 
  []
 
-[9] [10 <./Images/Autoencoder.png (PNG copy)>])
-(./Chapters/Ensemble_methods.tex
-<ensemble_1.jpg, id=267, 596.2275pt x 316.18124pt>
+[8]) (Chapters/Ensemble_methods.tex
+<ensemble_1.jpg, id=182, 596.2275pt x 316.18124pt>
 File: ensemble_1.jpg Graphic file (type jpg)
 <use ensemble_1.jpg>
 Package pdftex.def Info: ensemble_1.jpg  used on input line 6.
 (pdftex.def)             Requested size: 298.11302pt x 158.09023pt.
- [11 <./ensemble_1.jpg>])
-(./Chapters/Reinforcement_learning.tex [12]) (./Chapters/Bibliography.tex
-Underfull \hbox (badness 7273) in paragraph at lines 9--10
-[]\T1/ptm/m/sc/10 Deutsche Ak-tu-arvere-ini-gung e.V.\T1/ptm/m/n/10 , 2012: Uni
-sex-Tarifierung, abgerufen am 10.
- []
-
-
-Underfull \hbox (badness 5924) in paragraph at lines 9--10
-\T1/ptm/m/n/10 Novem-ber 2019: https://aktuar.de/fachartikelaktuaraktuell/Leben
-sversicherung_Unisex_Aktuar-
- []
-
-[13])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
- (./MLmethods.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
+ [9 <./Images/Autoencoder.png (PNG copy)> <./ensemble_1.jpg>]
+<Images/Adaboost_1.png, id=189, 510.40688pt x 253.69781pt>
+File: Images/Adaboost_1.png Graphic file (type png)
+<use Images/Adaboost_1.png>
+Package pdftex.def Info: Images/Adaboost_1.png  used on input line 24.
+(pdftex.def)             Requested size: 408.32605pt x 202.95851pt.
+ [10 <./Images/Adaboost_1.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
+ (MLmethods.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 33.
 Package rerunfilecheck Info: File `MLmethods.out' has not changed.
-(rerunfilecheck)             Checksum: B7F3764DDD6133D138200B96804114BB;1887.
+(rerunfilecheck)             Checksum: A6AF74D8A757BA174464FAA80EB41B95;1059.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
- 7439 strings out of 492646
- 109001 string characters out of 6129563
- 204968 words of memory out of 5000000
- 11112 multiletter control sequences out of 15000+600000
- 45361 words of font info for 47 fonts, out of 8000000 for 9000
+ 7415 strings out of 492969
+ 110011 string characters out of 3135833
+ 204075 words of memory out of 3000000
+ 11095 multiletter control sequences out of 15000+200000
+ 40145 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,8n,28p,840b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{https://en.wikipedia.org/wiki/Support\\protect\04
-0\\T1\\textunderscore\040vector\\protect\040\\T1\\textunderscore\040machine} ha
-s been referenced but does not exist, replaced by a fixed one
+ 28i,8n,28p,842b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{https://de.wikipedia.org/wiki/Boosting} has been 
+referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://www.youtube.com/watch?v=LsK-xG1cLYA} has be
+en referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/generated/s
+klearn.ensemble.AdaBoostClassifier.html} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/ensemble.ht
+ml} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://towardsdatascience.com/understanding-adaboo
+st-for-decision-tree-ff8f07d2851} has been referenced but does not exist, repla
+ced by a fixed one
+
+pdfTeX warning (dest): name{https://en.wikipedia.org/wiki/Support\\protect\040\
+\T1\\textunderscore\040vector\\protect\040\\T1\\textunderscore\040machine} has 
+been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{https://www.coursera.org/learn/machine-learning/hom
 e/welcome} has been referenced but does not exist, replaced by a fixed one
@@ -681,23 +654,41 @@ pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/generated/s
 klearn.svm.SVC.html} has been referenced but does not exist, replaced by a fixe
 d one
 
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on MLmethods.pdf (16 pages, 1389030 bytes).
+pdfTeX warning (dest): name{https://de.wikipedia.org/wiki/Entscheidungsbaum} ha
+s been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/generated/s
+klearn.tree.DecisionTreeClassifier.html} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/tree.html} 
+has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://de.wikipedia.org/wiki/N\344chste-Nachbarn-K
+lassifikation} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/neighbors.h
+tml} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{https://scikit-learn.org/stable/modules/generated/s
+klearn.neighbors.KNeighborsClassifier.html} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri
+8a.pfb>
+Output written on MLmethods.pdf (12 pages, 1223890 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 

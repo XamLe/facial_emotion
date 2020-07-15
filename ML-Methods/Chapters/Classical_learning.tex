@@ -1,48 +1,18 @@
 \section{Classical learning}
-Difference between Supervised unsupervised. We need to check what we wrote in chapter 2 before writing this part.
-\begin{figure}[hbtp]
-	\centering
-	\includegraphics[scale=1]{Supervsunsuper1}
-	\caption{Supervised vs unsupervised}
-	% \vspace{-20pt}
-	\label{fig:Datensatz - unbearbeitet}
-\end{figure}
-
+In this Chapter we are going to explain the Methods k-nearest-neighbours and support vector machine. Also we are going to briefly introduce decision trees because we are using them in Chapter 5 for AdaBoost.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Supervised}
-
-In supervised learning, we have a collection of input-output data pairs. In this case, the machine has a "supervisor" or a "teacher" who gives the machine all the answers, like whether it's a cat in the picture or a dog. The teacher has already divided (labeled) the data into cats and dogs, and the machine is using these examples to learn. One by one. Dog by cat. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Regression}
-Regression is basically classification where we forecast a number instead of category. Examples are car price by its mileage, traffic by time of the day, demand volume by growth of the company etc.
-
-Like for all other subsubsections i would sugest that we structure the Algorithms like in the table at Ch.2.(\textbf{\underline{Algorithm}}, \textbf{\underline{possible application}}, etc.), but also add some links etc. Trainingsdaten und berechnet den Abstand zu den jeweiligen Merkmalen. In 
- 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Classification}
-Splits objects based at one of the attributes known beforehand. Separate socks by based on color, documents based on language, music by genre. It is not limited to one attribute.
-Common algorithms are:\\
-Naive Bayes\\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-K-Nearest-Neighbours(KNN)
-
+\subsection{KNN}
 The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
 
-The straight-line distance (Euclidean distance) is a popular and familiar choice.
-Note that there are other ways of calculating distance, and one way might be preferable depending on the problem we are solving. Other distances could be Manhattan or Hamming.
+The straight-line distance (Euclidean distance) is a popular and familiar choice to measure the distance between two samples.
+Note that there are other ways of calculating distance, and one way might be preferable depending on the problem we are solving. Other possibilities to measure the distance could be e.g. Manhattan or Hamming.
+In the following picture the black dot could be classified as - if we only compare with the next neighbour. But if one chooses to compare with the three nearest neighbours it the dot would be classified as +, because two dots would be + and only one would be -. It is important to select a "good" amount of neighbours to classify. An example for this can be found in the next picture where the black dot is near to an (probably) outlier. If k would be chosen as 1 then the black dot would be classified as + but it would probably be -.
 
-\textbf{\underline{Algorithm:}}\\
 \begin{figure}[hbtp]
 	\centering
-	\includegraphics[scale=1]{knn1}
+	\includegraphics[scale=0.8]{knn1}
 	\caption{K-Nearest Neighbors}
 	% \vspace{-20pt}
 	\label{fig:Datensatz - unbearbeitet}
@@ -50,35 +20,44 @@ Note that there are other ways of calculating distance, and one way might be pre
 
 \begin{figure}[hbtp]
 	\centering
-	\includegraphics[scale=1]{knn2}
+	\includegraphics[scale=0.8]{knn2}
 	\caption{K-Nearest Neighbors}
 	% \vspace{-20pt}
 	\label{fig:Datensatz - unbearbeitet}
 \end{figure}
+ 
+ 
+\textbf{Sources:}
+\begin{itemize}
+\item scikit-learn: \hyperlink{https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html}{https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html} \\
+\hyperlink{https://scikit-learn.org/stable/modules/neighbors.html}{https://scikit-learn.org/stable/modules/neighbors.html}
+\item Wikipedia: Nächste-Nachbarn-Klassifikation \hyperlink{https://de.wikipedia.org/wiki/Nächste-Nachbarn-Klassifikation}{https://de.wikipedia.org/wiki/Nächste-Nachbarn-Klassifikation}
+\end{itemize} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\textbf{\underline{Possible application}}\\
+\subsection{Decision Trees}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+(Classification-) Decision tree
 
-(classification-) Decision tree
+The data will be divided by yes/no questions. This is done by selecting the question such that the best information gain is created(spliting the data via a feature which can seperate the different lables best). There are different methods to measure the entrophy from which the information gain can be calculated. A common approach is to calculate the Gini-index. For more information please have a look at the scources. In the following picture one can see a decision tree with depth 8. Trees tend to overfit if one let them grow to their maximum depth, so there are methods to prevent this from happening(e.g. pruning).
 
-All the data is automatically divided to yes/no questions. This is done by selecting the question sucht that the best information gain is created(spliting the data via a feature which can seperate the different lables best).
-
-\textbf{\underline{Algorithm:}}\\
 \begin{figure}[hbtp]
 	\centering
 	\includegraphics[scale=0.5]{tree}
-	\caption{Dacision Tree}
+	\caption{Decision Tree}
 	% \vspace{-20pt}
 	\label{fig:Datensatz - unbearbeitet}
 \end{figure}
 
-K-Nearest-Neighbours(KNN)\\
 
-\textbf{\underline{Possible application}}\\
+Decision Trees can used for ensemble methods (Random forest, adaboost,...). We refere to Chapter 5.
 
-Trees are used in ensemble methods (Random forest, adaboost,...). See chapter 5.
+\textbf{Sources:}
+\begin{itemize}
+\item scikit-learn: \hyperlink{https://scikit-learn.org/stable/modules/tree.html}{https://scikit-learn.org/stable/modules/tree.html} \\
+\hyperlink{https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html}{https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html}
+\item Wikipedia: Entscheidungsbaum \hyperlink{https://de.wikipedia.org/wiki/Entscheidungsbaum}{https://de.wikipedia.org/wiki/Entscheidungsbaum}
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,38 +106,6 @@ Now the model can give a prediction on new images. \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-\subsection{Unsupervised}
-
-Because our topic was a classification problem, we did not add content to this chapter. Like mentioned, in unsupervised learning one tryes to find structure in unlabled data.
-
-\begin{figure}[hbtp]
-	\centering
-	\includegraphics[scale=0.5]{cluster}
-	\caption{Clustering}
-	% \vspace{-20pt}
-	\label{fig:Datensatz - unbearbeitet}
-\end{figure}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Clustering}
-TBA
- 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Pattern search}
-TBA
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\subsubsection{Dimension Reduction}
-TBA
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
 
 
 \newpage
