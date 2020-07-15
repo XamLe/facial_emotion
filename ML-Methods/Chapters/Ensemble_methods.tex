@@ -1,6 +1,6 @@
 \section{Ensemble Methods}
-The main idea of ensemble is to combine algorithms to achieve a better accuracy than with a single modell. Ensemble methods can be split into heterogene and homogeneous ensembles. In homogenous ensembles only one classifier is used, while in heterogen ensembles different algorithms can be combined. 
-We implemented a homogenous method called adaboost with decision tree stumps(depth=1). This is a boosting method. There are other fields like Bagging(Bootstraping) or Random Forest which are not explained here. For a first introduction with Desicion Trees you can look at https://medium.com/analytics-vidhya/ensemble-methods-for-decision-trees-f4a658af754d.\\
+The main idea of ensemble is to combine algorithms to achieve a better accuracy than with a single model. Ensemble methods can be split into heterogeneous and homogeneous ensembles. In homogeneous ensembles only one classifier is used, while in heterogeneous ensembles different algorithms can be combined. 
+We implemented a homogeneous method called AdaBoost with decision tree stumps (depth=1). This is a boosting method. There are other fields like Bagging (Bootstraping) or Random Forest which are not explained here. For a first introduction with Desicion Trees you can look at https://medium.com/analytics-vidhya/ensemble-methods-for-decision-trees-f4a658af754d.\\
 \begin{figure}[hbtp]
 	\centering
 	\includegraphics[scale=0.5]{ensemble_1}
@@ -8,7 +8,7 @@ We implemented a homogenous method called adaboost with decision tree stumps(dep
 	% \vspace{-20pt}
 	\label{fig:Datensatz - unbearbeitet}
 \end{figure}
-If we consider decision trees, we can observe that they tend to overfit if they grow to their maximum depth. Also in every node there is uncertainty. Ensemble methods try to build a bunch of weak learner(like the mentioned stumps) to let them predict together and try to decrease variance (and bias).
+If we consider decision trees, we can observe that they tend to overfit if they grow to their maximum depth. Also in every node there is uncertainty. Ensemble methods try to build a bunch of weak learner (like the mentioned stumps) to let them predict together and try to decrease variance (and bias).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -18,14 +18,14 @@ For our problem we implemented an algorithm called AdaBoost. The main idea behin
 
 - AdaBoost works by putting more weight on difficult to classify instances and less on those already handled well.
 
-Like mentioned we implemented Adaboost with Stumps(depth=1). Regarding the functionality of Decision Trees we refere to Chapter 3 Classical learning. The input was the same for like for the other algorithms(2304 pixels) and the emotions. The process of the Algorithm can be seen in the following graphic. 
+Like mentioned we implemented AdaBoost with Stumps (depth=1). Regarding the functionality of Decision Trees we refer to Chapter 3 Classical learning. The input was the same like for the other algorithms (2304 pixels) and the emotions. The process of the algorithm can be seen in the following graphic. 
 \begin{figure}[hbtp]
 	\centering
 \includegraphics[scale=0.8]{Images/Adaboost_1.png} \\
 \end{figure}
 
-In summary it can be said that Adaboost had a surprisingly good accuracy compared with SVM. But the algorithm tends to classify a lot of pictures as happy and is weak at classifing Angry, Disgust and Fear.\\
-One advantage of Adaboost is that it is easily implemented and the training is rather simple. It is also possible to use different weak learner(Trees, KNN, etc.) But if the weak learner selected doesnt fit the problem then AdaBoost also struggles solving it. Also with growing iterations Adaboost can overfit. Another disadvantage is that due to the iterative calculation its difficult to parallelize.
+In summary it can be said that AdaBoost had a surprisingly good accuracy compared with SVM. But the algorithm tends to classify a lot of pictures as happy and is weak at classifying Angry, Disgust and Fear.\\
+One advantage of AdaBoost is that it is easily implemented and the training is rather simple. It is also possible to use different weak learner (Trees, KNN, etc.) But if the weak learner selected doesn't fit the problem, then AdaBoost also struggles solving it. Also with growing iterations AdaBoost can overfit. Another disadvantage is that, due to the iterative calculation, it's difficult to parallelize.
 
 \textbf{Sources:}
 \begin{itemize}
