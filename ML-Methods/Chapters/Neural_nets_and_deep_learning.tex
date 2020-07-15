@@ -3,7 +3,7 @@
 
 \subsection{Convolutional Neural Networks CNN}
 
-A Convolutional Neural Network is a Deep Learning algorithm which is primarily used to classify images. It can more easily capture spatial (and temporal) dependencies since the convolution filters use a linear combination of neighboring pixels to calculate an output value. After a convolution filter is applied, a Max-Pooling filter can be applied, which lowers the amount of nodes in the network. A $2$x$2$ Max-Pooling filter, for example, replaces every $2$x$2$ square with the maximal value in that square, resulting in lowering the amount of nodes after that layer to a quarter.
+A convolutional neural network is a deep learning algorithm which is primarily used to classify images. It can more easily capture spatial (and temporal) dependencies since the convolution filters use a linear combination of neighboring pixels to calculate an output value. After a convolution filter is applied, a max-pooling filter can be applied, which lowers the amount of nodes in the network. A $2$x$2$ max-pooling filter, for example, replaces every $2$x$2$ square with the maximal value in that square, resulting in lowering the amount of nodes after that layer to a quarter.
 At the end the multidimensional layers are flattened to a one dimensional vector that is connected to the output via a fully connected layer.
 
 \begin{figure}[hbtp]
@@ -38,7 +38,7 @@ A Beginner's Guide to Generative Adversarial Networks (GANs)
 \\
 
 GANs can be used to generate images and videos. We could use this type of network to expand training data. 
-Having a well trained GAN would allow us to create new images for specific emotions that look convincingly real in order to prevent overfitting by creating an endless stream of new images. 
+Having a well trained GAN would allow us to create new images for specific emotions that look convincingly real in order to prevent overfitting by creating an almost endless stream of new images. 
 It may also be used to create video training data that can be used to train a neural network with memory to better capture changes in emotion in a video stream. 
 The training of a GAN however takes a very long time compared to a simple CNN which makes it probably unfeasible for us even though it would create interesting possibilities to explore. 
 
@@ -46,13 +46,7 @@ The training of a GAN however takes a very long time compared to a simple CNN wh
 \subsection{Autoencoders}
 
 Autoencoders are a specific type of feedforward neural networks where the input is the same as the output. They compress the input into a lower-dimensional code and then reconstruct the output from this representation. The code is a compact “summary” or “compression” of the input.
-An autoencoder consists of 3 components: encoder, code and decoder. The encoder compresses the input and produces the code, the decoder then reconstructs the input only using this code.
-
-\begin{figure}[hbtp]
-	\centering
-	\includegraphics[width=1\textwidth]{Images/Autoencoder}
-	\caption{Example of an autoencoder architecture}
-\end{figure}
+An autoencoder consists of 3 components: encoder, code and decoder. The encoder compresses the input and produces the code, the decoder then reconstructs the input only using this code.\\
 
 Helpful links:\\
 Applied Deep Learning - Part 3: Autoencoders
@@ -63,7 +57,14 @@ An autoencoder is used to reduce the dimensionality. Since there is a lot of red
 
 The effectiveness of an autoencoder could possibly be explored if there are given time constraints for the training process. It can also be compared to principal component analysis (PCA) which removes redundancy in a more controlled way. 
 
-%\subsection{Perceptrons MLP}
+\begin{figure}[hbtp]
+	\centering
+	\includegraphics[width=1\textwidth]{Images/Autoencoder}
+	\caption{Example of an autoencoder architecture}
+\end{figure}
+
+
+\subsection{Perceptrons MLP}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
